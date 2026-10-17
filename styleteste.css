@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  width: 100%;
+  min-height: 100vh;
+  
+  background-image: url("assets/image/hellokitty.jpg");
+  background-size: auto;
+  background-repeat: repeat;
+  background-position: top left;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.cartao-perfil {
+  width: 100%;
+  max-width: 588px; 
+  height: auto; 
+  padding: 30px 40px;
+  
+  background-color: rgba(255, 216, 203, 0.85);
+  border: 2px solid #D88C9A;
+  border-radius: 24px;
+  box-shadow: 0 10px 25px rgba(166, 105, 70, 0.15);
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 8px;
+}
+
+.avatar img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #D88C9A;
+  margin-bottom: 8px;
+}
+
+.nome h1 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #f0589c;
+}
+
+.descricao p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #f0589c;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 16px;
+  margin: 24px 0;
+}
+
+.links a {
+  text-decoration: none;
+  width: 100%;
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  background-color: #F2E8C9;
+  color: #f478ad;
+  border: 1.5px solid #F2C5BB;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #D88C9A;
+  color: #f9f9f9;
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.social-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  align-items: center;
+  width: 100%;
+  gap: 16px;
+  height: 88px;
+}
+
+.social-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.social-git-hub {
+  width: 40px;  
+  height: 40px; 
+  object-fit: contain;
+  opacity: 1; 
+  transform: rotate(0deg); 
+}
+
+.social-linkedin {
+  width: 20px;  
+  height: 20px; 
+  object-fit: contain;
+  opacity: 1; 
+  transform: rotate(0deg); 
+  
+}
+
+.social-git-hub:hover {
+  transform: scale(1.1); 
+  filter: none; 
+}
+.social-linkedin:hover {
+  transform: scale(1.1); 
+  filter: none; 
+}
